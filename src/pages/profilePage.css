@@ -1,0 +1,23 @@
+.profile {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.profile__image-container {
+    padding: 50px;
+    float: inline-start;
+}
+
+.profile__image {
+    border-radius: 30px;
+}
+.profile__container {
+    padding: 20px;
+}
+.profile__name {
+    font-size: 40px;
+}
+.profile__content {
+    font-size: 25px;
+    line-height: 1.5;
+}
