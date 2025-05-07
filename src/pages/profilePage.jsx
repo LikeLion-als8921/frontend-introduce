@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./profilePage.css";
+import "./navMenu.css";
 
 class Header extends Component {
     render() {
@@ -22,7 +23,7 @@ class NavMenuComponent extends Component {
                     <li>
                         <a
                             className="nav-menu__button nav-menu__button--active"
-                            href="index.html"
+                            // href="index.html"
                         >
                             About Me
                         </a>
@@ -30,7 +31,7 @@ class NavMenuComponent extends Component {
                     <li>
                         <a
                             className="nav-menu__button"
-                            href="src/pages/hobby.html"
+                            // href="src/pages/hobby.html"
                         >
                             Hobby
                         </a>
@@ -38,7 +39,7 @@ class NavMenuComponent extends Component {
                     <li>
                         <a
                             className="nav-menu__button"
-                            href="src/pages/goals.html"
+                            // href="src/pages/goals.html"
                         >
                             Goals
                         </a>
