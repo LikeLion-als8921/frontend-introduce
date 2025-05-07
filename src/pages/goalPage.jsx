@@ -1,16 +1,11 @@
 import React, { Component } from "react";
-import NavMenuComponent from "../components/navMenuComponent";
 import "./goalPage.css";
 
-class Header extends Component {
-    render() {
-        return <title>[202102592] 이민철 | Goals</title>;
-    }
-}
 class GoalContents extends Component {
     render() {
         return (
             <div>
+                <title>[202102592] 이민철 | Goals</title>
                 <span className="sr-only">
                     목표들을 소개하는 페이지 입니다.
                 </span>
@@ -52,8 +47,6 @@ class ProfilePage extends Component {
     render() {
         return (
             <div>
-                <Header></Header>
-                <NavMenuComponent></NavMenuComponent>
                 <GoalContents></GoalContents>
             </div>
         );

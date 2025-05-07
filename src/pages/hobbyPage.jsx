@@ -1,16 +1,11 @@
 import React, { Component } from "react";
-import NavMenuComponent from "../components/navMenuComponent";
 import "./hobbyPage.css";
 
-class Header extends Component {
-    render() {
-        return <title>[202102592] 이민철 | Hobby</title>;
-    }
-}
 class HobbyContents extends Component {
     render() {
         return (
             <div>
+                <title>[202102592] 이민철 | Hobby</title>
                 <span class="sr-only">취미를 소개하는 페이지 입니다.</span>
                 <section class="hobby-image">
                     <img src="images/hobby-chacha.png" alt="차차 이미지" />
@@ -42,8 +37,6 @@ class ProfilePage extends Component {
     render() {
         return (
             <div>
-                <Header></Header>
-                <NavMenuComponent></NavMenuComponent>
                 <HobbyContents></HobbyContents>
             </div>
         );
