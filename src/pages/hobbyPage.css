@@ -1,0 +1,15 @@
+.hobby-image {
+    text-align: center;
+}
+.hobby-card {
+    margin: 0 50px 0 50px;
+    background-color: rgb(255, 249, 243);
+    list-style-type: none;
+    padding: 30px 70px 30px 70px;
+}
+.hobby-card__content {
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 10px;
+}

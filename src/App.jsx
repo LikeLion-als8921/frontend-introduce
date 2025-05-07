@@ -1,11 +1,12 @@
 import "./App.css";
 import ProfilePage from "./pages/profilePage";
 import GoalPage from "./pages/goalPage";
+import HobbyPage from "./pages/hobbyPage";
 
 function App() {
     return (
         <div className="App">
-            <GoalPage></GoalPage>
+            <HobbyPage></HobbyPage>
         </div>
     );
 }
