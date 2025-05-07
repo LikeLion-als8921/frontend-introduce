@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./profilePage.css";
-import "./navMenu.css";
+import NavMenuComponent from "../components/navMenuComponent";
 
 class Header extends Component {
     render() {
@@ -8,44 +8,6 @@ class Header extends Component {
             <head>
                 <title>[202102592] 이민철 | About me</title>
             </head>
-        );
-    }
-}
-class NavMenuComponent extends Component {
-    render() {
-        return (
-            <nav className="nav-menu">
-                <section className="nav-menu__logo-container">
-                    <div className="nav-menu__logo">LIKELION</div>
-                    <div className="nav-menu__name">_mincheol</div>
-                </section>
-                <ul className="nav-menu__button-container">
-                    <li>
-                        <a
-                            className="nav-menu__button nav-menu__button--active"
-                            // href="index.html"
-                        >
-                            About Me
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            className="nav-menu__button"
-                            // href="src/pages/hobby.html"
-                        >
-                            Hobby
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            className="nav-menu__button"
-                            // href="src/pages/goals.html"
-                        >
-                            Goals
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         );
     }
 }
