@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./navMenuComponent.css";
+
 class NavMenuComponent extends Component {
     render() {
         return (
@@ -10,28 +12,22 @@ class NavMenuComponent extends Component {
                 </section>
                 <ul className="nav-menu__button-container">
                     <li>
-                        <a
+                        <Link
+                            to="/"
                             className="nav-menu__button nav-menu__button--active"
-                            // href="index.html"
                         >
                             About Me
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            className="nav-menu__button"
-                            // href="src/pages/hobby.html"
-                        >
+                        <Link to="/hobby" className="nav-menu__button">
                             Hobby
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            className="nav-menu__button"
-                            // href="src/pages/goals.html"
-                        >
+                        <Link to="/goal" className="nav-menu__button">
                             Goals
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
