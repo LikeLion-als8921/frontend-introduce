@@ -33,24 +33,21 @@ class ProfileComponent extends Component {
                             내고 싶습니다.
                         </p>
 
-                        <a
-                            href="https://www.instagram.com/minc._ol/"
-                            target="_blank"
-                        >
+                        <a href="https://www.instagram.com/minc._ol/">
                             <img
                                 src="images/instagram.svg"
                                 alt="Instagram Logo"
                                 height="25px"
                             />
                         </a>
-                        <a href="mailto:alscjf2632@gmail.com" target="_blank">
+                        <a href="mailto:alscjf2632@gmail.com">
                             <img
                                 src="images/gmail.svg"
                                 alt="Gmail Logo"
                                 height="25px"
                             />
                         </a>
-                        <a href="https://github.com/als8921" target="_blank">
+                        <a href="https://github.com/als8921">
                             <img
                                 src="images/github-mark.svg"
                                 alt="Github Logo"
